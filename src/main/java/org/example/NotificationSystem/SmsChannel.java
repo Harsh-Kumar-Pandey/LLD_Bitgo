@@ -1,4 +1,4 @@
-package org.example;
+package org.example.NotificationSystem;
 
 public class SmsChannel implements NotificationChannel {
 

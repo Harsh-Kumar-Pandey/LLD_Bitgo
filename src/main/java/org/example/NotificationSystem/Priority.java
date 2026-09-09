@@ -1,4 +1,4 @@
-package org.example;
+package org.example.NotificationSystem;
 
 public enum Priority {
     High(1) , MEDIUM(2),LOW(3);

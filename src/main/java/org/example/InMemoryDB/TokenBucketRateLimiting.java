@@ -1,13 +1,12 @@
-package org.example;
+package org.example.InMemoryDB;
 
-import java.util.HashMap;
 import java.util.concurrent.ConcurrentHashMap;
 
-public class TokenBucketRateLimiting implements RateLimitingStrategy{
+public class TokenBucketRateLimiting implements RateLimitingStrategy {
     long capacity;
     long refillRatePerSecond;
 
-    ConcurrentHashMap<Integer,TokenBucket> users;
+    ConcurrentHashMap<Integer, TokenBucket> users;
     TokenBucketRateLimiting(long capacity,long refillRatePerSecond){
         this.capacity=capacity;
         this.refillRatePerSecond=refillRatePerSecond;

@@ -1,11 +1,11 @@
-package org.example;
+package org.example.NotificationSystem;
 
 public class NotificationRequest implements Comparable<NotificationRequest> {
    public int requestId;
     public  int recipientId;
     public String content;
-    public  NotificationType type;
-    public  Priority priority;
+    public NotificationType type;
+    public Priority priority;
     public  int retryCount;
 
     public NotificationRequest(int requestId, int recipientId, String content, NotificationType type, Priority priority){

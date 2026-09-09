@@ -1,4 +1,4 @@
-package org.example;
+package org.example.InMemoryDB;
 
 public class TokenBucket {
     long capacity;

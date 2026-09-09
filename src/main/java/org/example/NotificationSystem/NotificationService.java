@@ -1,4 +1,4 @@
-package org.example;
+package org.example.NotificationSystem;
 
 import java.util.concurrent.PriorityBlockingQueue;
 
